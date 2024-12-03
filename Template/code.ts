@@ -1,5 +1,7 @@
 // import * as fs from "fs";
-// fs.readFile("./input.txt", "utf8", (err, data) => {
+// import * as path from "path"
+
+// fs.readFile(path.resolve(__dirname, "./input.txt"), "utf8", (err, data) => {
 //   if (err) {
 //     console.error(err);
 //     return;
